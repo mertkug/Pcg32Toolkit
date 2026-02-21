@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stryker-mutator/stryker-net/master/src/Stryker.CLI/stryker-schema.json",
+  "stryker-config": {
+    "solution": "Pcg32Toolkit.sln",
+    "project": "Pcg32Toolkit/Pcg32Toolkit.csproj",
+    "test-projects": [
+      "Pcg32Toolkit.Tests/Pcg32Toolkit.Tests.csproj"
+    ],
+    "mutate": [
+      "**/PCG32.cs"
+    ],
+    "reporters": [
+      "progress",
+      "html",
+      "json"
+    ],
+    "verbosity": "info",
+    "thresholds": {
+      "high": 85,
+      "low": 70,
+      "break": 65
+    }
+  }
+}

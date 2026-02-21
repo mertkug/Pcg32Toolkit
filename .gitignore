@@ -1,0 +1,27 @@
+# Build output
+**/bin/
+**/obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Test artifacts
+TestResults/
+coverage/
+
+# Mutation testing output
+StrykerOutput/
+
+# IDE settings
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# OS artifacts
+.DS_Store
+Thumbs.db

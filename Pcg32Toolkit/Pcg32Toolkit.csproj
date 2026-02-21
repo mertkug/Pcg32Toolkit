@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <AssemblyName>Pcg32Toolkit</AssemblyName>
+    <RootNamespace>Pcg32Toolkit</RootNamespace>
+
+    <PackageId>Pcg32Toolkit</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Mert</Authors>
+    <Company>Mert</Company>
+    <Description>Small utility library that provides a PCG32 random number generator.</Description>
+    <PackageTags>random;rng;pcg;pcg32;utility</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/your-user/Pcg32Toolkit</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/your-user/Pcg32Toolkit</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>Pcg32Toolkit.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
