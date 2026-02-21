@@ -20,8 +20,8 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/your-user/Pcg32Toolkit</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/your-user/Pcg32Toolkit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mertkug/Pcg32Toolkit</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/mertkug/Pcg32Toolkit</PackageProjectUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
